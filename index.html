@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Girocerto</title>
+</head>
+<header>
+    <img src="logogirocerto.PNG">
+    <h2>Venda Pelo Preço Certo.</h2>
+</header>
+<body>
+<div class="layout">
+<main>
+    <div class="calc">
+    <form>
+    <h2>Calculadora De Preço</h2>
+    <div class="custop"></div>
+    <label for="custo">Custo Do Produto:</label>
+    <input type="number" id="custo" name="custo" placeholder="R$">
+    </div>
+    <div class="fretep">
+    <label for="frete">Frete:</label>
+    <input type="number" id="frete" name="frete" placeholder="R$">
+    </div>
+    <div class="taxap">
+    <label for="taxa">Taxa do Marktplace (%):</label>
+    <input type="number" id="taxa" name="taxa">
+    </div>
+    <div class="margemp">
+    <label for="margem">Margem De Lucro Desejada(%):</label>
+    <input type="number" id="margem" name="margem">
+    </div>
+    <button id="calcbutton" type="submit">Calcule</button>
+
+    </form>
+    </div>
+    <div class="catalogo">
+        <h2>Adicionar ao catálogo</h2>
+        
+    </div>
+</main>
+<aside>
+        <h2>Meu Catálogo</h2>
+</aside>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
